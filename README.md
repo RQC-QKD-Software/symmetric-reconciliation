@@ -19,8 +19,8 @@ Contains basic procedures for performing a test of reconciliation protocol. It i
  - syndrome encoding;
  - syndrome decoding;
  - performing symmetric blind reconciliation for given pair keys;
- - testing of the full procedure of information reconciliation, including generation of keys, adding errors, and collection of statistics;
-
+ - testing of the full procedure of information reconciliation, including generation of keys, adding errors, and collection of statistics.
+ 
 ### 2.3. codes_1944.txt
 Pool of four [standard LDPC codes](http://ieeexplore.ieee.org/document/5307322/?arnumber=5307322) of block length 1944 together with positions for [untainted puncturing](http://ieeexplore.ieee.org/document/6290312/?arnumber=6290312). The set of code rates is {5/6, 3/4, 2/3, 1/2}.
 
