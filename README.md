@@ -6,10 +6,10 @@ Repository contains simulation of symmetric blind reconciliation algorithm reali
 
 ## 2. Files contents
 
-### 2.1. test_error_correction.py
+### test_error_correction.py
 Launches a simulation of the symmetric blind reconciliation for the current number of tries and QBER values. Keeps the result in output.txt.
 
-### 2.2. error_correction_lib.py
+### error_correction_lib.py
 Contains basic procedures for performing a test of reconciliation protocol. It includes:
  - generation of random keys (bit strings);
  - adding errors in accordance with given level of quantum bit error rate (QBER);
@@ -21,13 +21,13 @@ Contains basic procedures for performing a test of reconciliation protocol. It i
  - performing symmetric blind reconciliation for given pair keys;
  - testing of the full procedure of information reconciliation, including generation of keys, adding errors, and collection of statistics.
  
-### 2.3. codes_1944.txt
+### codes_1944.txt
 Pool of four [standard LDPC codes](http://ieeexplore.ieee.org/document/5307322/?arnumber=5307322) of block length 1944 together with positions for [untainted puncturing](http://ieeexplore.ieee.org/document/6290312/?arnumber=6290312). The set of code rates is {5/6, 3/4, 2/3, 1/2}.
 
-### 2.4. codes_4000.txt
+### codes_4000.txt
 Pool of nine LDPC codes with block length 4000, constructed with [improved progressive edge growing algorithm](http://ieeexplore.ieee.org/document/5606185/?arnumber=5606185) with [particular distribution polynomials](http://ieeexplore.ieee.org/document/5205475/?arnumber=5205475). The set of code rates is {0.9, 0.85, ..., 0.5}.
 
-### 2.5. file_utils.py
+### file_utils.py
 Contains some auxiliary procedures for reading files with codes.
 
 ## 3. Notes about storage of parity-check matrices
