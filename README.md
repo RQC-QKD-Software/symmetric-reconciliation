@@ -1,4 +1,4 @@
-# Simulation of symmetric blind reconciliation protocol for quantum key distribution systems
+# Symmetric information reconciliation for the QKD post-processing procedure
 
 ## 1. General description
 
